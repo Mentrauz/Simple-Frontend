@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function Home() {
   const [headerSize] = useState(1.2) // 120% is the default size
-  const [textSize] = useState(0.8) // 80% is the default size
+  const [textSize] = useState(1.0) // 100% is the default size, increased from 0.8
 
   return (
     <div
@@ -35,11 +35,12 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="h-px bg-white/10 w-full" />
                 <p>
-                  I am a passionate frontend developer with a knack for creating beautiful and functional web experiences.
+                  I am a passionate Full Stack developer with a knack for creating beautiful and functional web experiences.
                 </p>
                 <p>
                   I have worked with multiple companies to build their websites and web applications with beautiful
-                  and functional designs using React, Next.js, and Tailwind CSS etc.
+                  and functional designs using React, Next.js, and Tailwind CSS etc. I specialize in NextJs based 
+                  Web Development and open-source tools for impactful, equitable social change.
                 </p>
                 <div className="h-px bg-white/10 w-full" />
               </div>
