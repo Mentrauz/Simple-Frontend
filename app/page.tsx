@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function Home() {
   const [headerSize] = useState(1.2) // 120% is the default size
-  const [textSize] = useState(1.0) // 100% is the default size, increased from 0.8
+  const [textSize] = useState(0.9) // 100% is the default size, increased from 0.8
 
   return (
     <div
