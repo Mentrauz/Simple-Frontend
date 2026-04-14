@@ -3,7 +3,6 @@
 import { useState } from "react"
 import DynamicFrameLayout from "../components/DynamicFrameLayout"
 import { ppEditorialNewUltralightItalic, inter } from "./fonts"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Home() {
@@ -46,17 +45,14 @@ export default function Home() {
               </div>
             </div>
             <Link
-              href="https://portfolio-mentrauzs-projects.vercel.app/"
+              href="https://www.soumyasingh.site/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-8 h-8 relative opacity-80 hover:opacity-100 transition-opacity"
+              className={`${ppEditorialNewUltralightItalic.className} text-2xl md:text-4xl font-light italic text-white/80 tracking-tighter hover:text-white transition-colors block`}
             >
-                <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-                alt="React Logo"
-                fill
-                className="object-contain"
-              />
+              Visit
+              <br />
+              portfolio
             </Link>
             <p className="text-xs text-white/30 mt-2">
               Note: This page uses assets from Luma that are copyrighted to them.
